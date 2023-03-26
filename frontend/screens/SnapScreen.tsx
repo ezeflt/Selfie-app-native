@@ -10,7 +10,7 @@ import { useIsFocused } from '@react-navigation/native';
 export default function SnapScreen() {
   const dispatch = useDispatch();
   const isFocused = useIsFocused();
-  const BACKEND_ADDRESS = 'http://172.20.10.2:3000';
+  const BACKEND_ADDRESS = 'http://431c-37-167-162-190.ngrok.io';
 
   const [hasPermission, setHasPermission] = useState(false);
   const [type, setType] = useState(CameraType.back);

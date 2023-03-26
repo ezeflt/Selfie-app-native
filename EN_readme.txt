@@ -21,20 +21,8 @@ step 1/2 START FRONTEND
 1) cd frontend
 2) yarn install
 3) yarn start
-4)After running yarn start, 
-there will be a QR code displayed with the message 
-"Metro waiting on exp://<your IP address>". 
-Copy the IP address after "exp://". 
-Go to frontend/screens/SnapScreen.tsx and on line 13
-replace the backend address with the IP address you just copied. 
-Paste the IP address and change the number after the colon to :3000.
-It should look like this:
-const BACKEND_ADDRESS = 'http://<your IP address>:3000';
-
-5)Press r in your terminal to restart the application.
-6)Take your phone, use your camera to scan the QR code.
+4) Open a terminal
+5) yarn run ngrok
+6) Take your phone, use its camera to scan the QR code.
 ✅ frontend started
-
-
-
 
